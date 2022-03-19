@@ -1,0 +1,34 @@
+
+a {
+    text-decoration: none;
+}
+
+.website__container {
+    font-family: Arial, serif;
+}
+
+.website__aside {
+    float: left;
+    width: 200px;
+}
+
+.website-author-intro__container {
+    margin: 10px;
+}
+
+.website-author__name {
+    
+}
+
+.website__page__container {
+    float: left;
+}
+
+.website-author-intro__portrait {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.website__navigation__menu, .website-author-social-network__links {
+    list-style-type: none;
+}
