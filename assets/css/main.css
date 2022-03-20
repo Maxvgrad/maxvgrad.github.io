@@ -20,7 +20,7 @@ a {
     
 }
 
-.website__page__container {
+.dwebsite__page__container {
     float: left;
 }
 
@@ -29,6 +29,6 @@ a {
     width: 100px;
 }
 
-.website__navigation__menu, .website-author-social-network__links {
+.website-navigation__list, .website-author-social-network__links {
     list-style-type: none;
 }
