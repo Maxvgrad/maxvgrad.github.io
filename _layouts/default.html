@@ -6,49 +6,33 @@
     <script src="https://kit.fontawesome.com/b210ec124a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <style>
-        .site-menu ul {
-            list-style-type: none;
-        }
-        .side-information ul {
-            list-style-type: none;
-        }
-        .contact-link__github__logo::before {
-            content: "\f09b";
-        }
-    </style>
-    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
-    <div class="website__container">
-        <aside class="website__aside">
-            <div class="website-author-intro__container">
-                <a href="index.html">
-                    <img class="website-author-intro__portrait" src="/assets/images/portrait.jpg" alt="portrait">
-                    <h2 class="website-author__name">Max Ploter</h2>
-                </a>
-                <p class="website-author-intro">Software engineer, Computer science enthusiast</p>
-            </div>
-            {% include navigation.html %}
-            <ul class="website-author-social-network__links">
-                <li class="website-author-social-network__link">
-                    <i class="fa fa-github"></i>
-                    <a href="https://github.com/Maxvgrad">Github</a>
-                </li>
-                <li class="website-author-social-network__link">
-                    <i class="fab fa-stack-overflow"></i>
-                    <a href="https://stackoverflow.com/users/9215813/maksim-ploter">StackOverflow</a>
-                </li>
-                <li class="website-author-social-network__link">
-                    <i class="fa fa-linkedin"></i>
-                    <a href="https://www.linkedin.com/in/maksimvinogradov/">Linkedin</a>
-                </li>
-            </ul>
-        </aside>
-        <main class="page__container">
-            {{ content }}
-        </main>
-    </div>
-
+    <header class="header">
+        <div class="author">
+            <h2 class="name">Max Ploter</h2>
+            <div class="author__intro">Software engineer, Computer science enthusiast.</div>
+        </div>
+        {% include navigation.html %}
+    </header>
+    <main class="content">
+        {{ content }}
+    </main>
+    <footer class="footer">
+        <ul class="list">
+            <li class="list__item">
+                <i class="fa fa-github"></i>
+                <a class="link" href="https://github.com/Maxvgrad">Gh</a>
+            </li>
+            <li class="list__item">
+                <i class="fab fa-stack-overflow"></i>
+                <a class="link" href="https://stackoverflow.com/users/9215813/maksim-ploter">SO</a>
+            </li>
+            <li class="list__item">
+                <i class="fa fa-linkedin"></i>
+                <a class="link" href="https://www.linkedin.com/in/maksimvinogradov/">Li</a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>

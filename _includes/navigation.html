@@ -1,8 +1,8 @@
-<nav class="website-navigation">
-    <ul class="website-navigation__list">
+<nav class="nav">
+    <ul class="list">
         {% for item in site.data.navigation %}
-        <li class="website-navigation__list__item">
-            <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+        <li class="list__item">
+            <a href="{{ item.link }}" class="link{% if page.url == item.link %} current{% endif %}">
                 {{ item.name }}
             </a>
         </li>
