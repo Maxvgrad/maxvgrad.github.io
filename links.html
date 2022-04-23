@@ -1,0 +1,15 @@
+---
+layout: default
+title: Links
+permalink: /links
+---
+<h1 class="title">Links</h1>
+
+<ul class="list">
+    {% for link in site.data.links %}
+    <li class="list__item">
+        <a href="{{link.url}}" class="link">{{link.title}}</a>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
