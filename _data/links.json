@@ -3,6 +3,29 @@
     "title": "Блокчейн изнутри: как устроен биткоин",
     "url": "https://vas3k.ru/blog/blockchain/",
     "tags": ["blockchain", "bitcoin"],
-    "date": "2022-04-23"
+    "date": "2022-04-23",
+    "status": "READ"
+  },
+  {
+    "title": "Как быть одному и не облажаться",
+    "url": "https://w-o-s.ru/article/4309",
+    "tags": ["personal", "life", "relationship", "single"],
+    "date": "2022-04-25",
+    "status": "READ"
+  },
+  {
+    "title": "Как устроен Ethereum и смарт-контракты",
+    "url": "https://vas3k.ru/blog/ethereum/",
+    "tags": ["blockchain", "ethereum", "smart-contract"],
+    "date": "2022-04-25",
+    "status": "READING"
+  },
+
+  {
+    "title": "Placeholder",
+    "url": "https://placeholder.com/",
+    "tags": ["foo", "bar"],
+    "date": "2022-04-23",
+    "status": "NEW"
   }
 ]
