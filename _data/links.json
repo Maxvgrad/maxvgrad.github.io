@@ -27,6 +27,20 @@
     "date": "2022-04-29",
     "status": "READ"
   },
+  {
+    "title": "How Does the Internet Work?",
+    "url": "https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm",
+    "tags": ["tech", "internet"],
+    "date": "2022-04-29",
+    "status": "READING"
+  },
+  {
+    "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+    "url": "https://bitcoin.org/bitcoin.pdf",
+    "tags": ["blockchain", "bitcoin"],
+    "date": "2022-04-23",
+    "status": "READING"
+  },
 
   {
     "title": "Placeholder",
