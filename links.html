@@ -3,12 +3,16 @@ layout: default
 title: Links
 permalink: /links
 ---
+<section class="links-page">
 <h1 class="title">Links</h1>
 
-<ul class="list">
+<ul class="list links-page__list">
     {% for link in site.data.links %}
+    {% if link.status != 'NEW' %}
     <li class="list__item">
         <a href="{{link.url}}" class="link">{{link.title}}</a>
     </li>
+    {% endif %}
     {% endfor %}
 </ul>
+</section>
