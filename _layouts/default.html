@@ -9,30 +9,36 @@
 </head>
 <body class="page">
     <header class="header">
-        <div class="author">
-            <h2 class="name author__name">Max Ploter</h2>
-            <div class="author__intro">Software engineer, Computer science enthusiast.</div>
+        <div class="side">
+            <div class="author">
+                <h2 class="name author__name">Max Ploter</h2>
+                <div class="author__intro">Software engineer, Computer science enthusiast.</div>
+            </div>
         </div>
-        {% include navigation.html %}
+        <div class="side">
+            {% include navigation.html %}
+        </div>
     </header>
     <main class="content">
         {{ content }}
     </main>
     <footer class="footer">
-        <ul class="list">
-            <li class="list__item">
-                <i class="fa fa-github"></i>
-                <a class="link" href="https://github.com/Maxvgrad">Gh</a>
-            </li>
-            <li class="list__item">
-                <i class="fab fa-stack-overflow"></i>
-                <a class="link" href="https://stackoverflow.com/users/9215813/maksim-ploter">SO</a>
-            </li>
-            <li class="list__item">
-                <i class="fa fa-linkedin"></i>
-                <a class="link" href="https://www.linkedin.com/in/maksimvinogradov/">Li</a>
-            </li>
-        </ul>
+        <div class="contact-links">
+            <ul class="list">
+                <li class="list__item contact-links__item">
+                    <i class="fa fa-github"></i>
+                    <a class="link" href="https://github.com/Maxvgrad">Gh</a>
+                </li>
+                <li class="list__item contact-links__item">
+                    <i class="fab fa-stack-overflow"></i>
+                    <a class="link" href="https://stackoverflow.com/users/9215813/maksim-ploter">SO</a>
+                </li>
+                <li class="list__item contact-links__item">
+                    <i class="fa fa-linkedin"></i>
+                    <a class="link" href="https://www.linkedin.com/in/maksimvinogradov/">Li</a>
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>

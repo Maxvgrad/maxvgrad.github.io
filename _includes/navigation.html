@@ -1,7 +1,7 @@
 <nav class="nav">
     <ul class="list">
         {% for item in site.data.navigation %}
-        <li class="list__item">
+        <li class="list__item nav__item">
             <a href="{{ item.link }}" class="link{% if page.url == item.link %} link_selected{% endif %}">
                 {{ item.name }}
             </a>
