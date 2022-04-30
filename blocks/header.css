@@ -3,3 +3,10 @@
     align-items: center;
     border-bottom: 1px solid lightgrey;
 }
+
+@media only screen and (max-width: 500px) {
+    .header {
+        flex-direction: column;
+        align-items: start;
+    }
+}

@@ -1,3 +1,7 @@
 .nav {
     margin-right: 0;
 }
+
+.nav .list {
+    padding: 0;
+}
