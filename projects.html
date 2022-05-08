@@ -3,8 +3,16 @@ layout: default
 title: Projects
 permalink: /projects
 ---
-<h1 class="title">Projects</h1>
+<section class="projects-page">
+    <h1 class="title">Projects</h1>
 
-project 1
-project 2
-project 3
+    <ul class="list projects-page__list">
+        {% for project in site.data.projects %}
+        {% if project.status != 'NEW' %}
+        <li class="list__item">
+            <a href="{{project.url}}" class="link" target="_blank">{{project.title}}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</section>
