@@ -1,5 +1,12 @@
 [
   {
+    "title": "Placeholder",
+    "url": "https://placeholder.com/",
+    "tags": ["foo", "bar"],
+    "date": "2022-05-23",
+    "status": "NEW"
+  },
+  {
     "title": "Блокчейн изнутри: как устроен биткоин",
     "url": "https://vas3k.ru/blog/blockchain/",
     "tags": ["blockchain", "bitcoin"],
@@ -40,13 +47,5 @@
     "tags": ["blockchain", "bitcoin"],
     "date": "2022-04-23",
     "status": "READING"
-  },
-
-  {
-    "title": "Placeholder",
-    "url": "https://placeholder.com/",
-    "tags": ["foo", "bar"],
-    "date": "2022-04-23",
-    "status": "NEW"
   }
 ]

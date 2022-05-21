@@ -9,6 +9,13 @@ permalink: /links
 <ul class="list links-page__list">
     {% for link in site.data.links %}
     {% if link.status != 'NEW' %}
+
+    {% capture link_date %}{{link.date | date: "%Y-%m"}}{% endcapture %}
+
+    {% if year_month_to_display == null or link_date < year_month_to_display %}
+        {% capture year_month_to_display %}{{link.date | date: "%Y-%m"}}{% endcapture %}
+        <h2 class="subTitle">{{year_month_to_display}}</h2>
+    {% endif %}
     <li class="list__item">
         <a href="{{link.url}}" class="link">{{link.title}}</a>
     </li>
