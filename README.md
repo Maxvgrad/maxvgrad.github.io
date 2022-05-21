@@ -1,6 +1,8 @@
 ## Why?
 * Force myself to write posts
-* Create a list of project
+* Learn web stack
+* Create a CV
+.
 
 ## Site tech stack
 * [jekyll](https://jekyllrb.com/)
