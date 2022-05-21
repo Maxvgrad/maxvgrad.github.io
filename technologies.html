@@ -1,0 +1,16 @@
+---
+layout: default
+title: Technologies
+permalink: /technologies
+---
+<section class="technologies-page">
+<h1 class="title">Technologies</h1>
+
+<ul class="list">
+    {% for technology in site.data.technologies %}
+    <li class="item">
+        <a href="{{technology.url}}" class="link">{{technology.title}}</a>
+    </li>
+    {% endfor %}
+</ul>
+</section>
