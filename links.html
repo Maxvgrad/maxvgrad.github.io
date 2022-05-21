@@ -5,21 +5,30 @@ permalink: /links
 ---
 <section class="links-page">
 <h1 class="title">Links</h1>
-
-<ul class="list links-page__list">
     {% for link in site.data.links %}
-    {% if link.status != 'NEW' %}
-
-    {% capture link_date %}{{link.date | date: "%Y-%m"}}{% endcapture %}
-
-    {% if year_month_to_display == null or link_date < year_month_to_display %}
-        {% capture year_month_to_display %}{{link.date | date: "%Y-%m"}}{% endcapture %}
-        <h2 class="subTitle">{{year_month_to_display}}</h2>
-    {% endif %}
-    <li class="list__item">
-        <a href="{{link.url}}" class="link">{{link.title}}</a>
-    </li>
-    {% endif %}
+        {% if link.status != 'NEW' %}
+            {% capture link_date %}{{link.date | date: "%Y-%m"}}{% endcapture %}
+            {% if year_month_to_display == null or link_date < year_month_to_display %}
+                {% if year_month_to_display != null %}
+    </ul>
+                {% endif %}
+                {% capture year_month_to_display %}{{link.date | date: "%Y-%m"}}{% endcapture %}
+    <h2 class="title">{{year_month_to_display}}</h2>
+    <ul class="list links-page__list">
+            {% endif %}
+        <li class="list__item">
+            <div class="link">
+                <a href="{{link.url}}" class="link">
+                    <h3 class="title link__title">{{link.title}}</h3>
+                </a>
+                <ul class="list list_row link__tags">
+                    {% for tag in link.tags %}
+                    <li class="list__item link__tag">#{{tag}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </li>
+        {% endif %}
     {% endfor %}
 </ul>
 </section>
