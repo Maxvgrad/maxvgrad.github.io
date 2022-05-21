@@ -1,9 +1,20 @@
 [
   {
+    "title": "The OAuth 2.0 Authorization Framework",
+    "url": "https://datatracker.ietf.org/doc/html/rfc6749",
+    "tags": ["backend", "authorization"],
+    "version": "2.0",
+    "date": "2012-10-01",
+    "date_added": "2022-05-21",
+    "status": "IN_PROGRESS"
+  },
+  {
     "title": "CSS",
     "url": "https://www.w3.org/TR/CSS2/",
-    "tags": ["frontend"],
+    "version": "2.1",
     "date": "2022-05-21",
-    "status": "IN_PROGRESS"
+    "tags": ["frontend"],
+    "date_added": "2022-05-21",
+    "status": "PENDING"
   }
 ]
