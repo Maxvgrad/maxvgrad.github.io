@@ -4,7 +4,7 @@
     "url": "https://placeholder.com/",
     "tags": ["foo", "bar"],
     "date": "2022-05-23",
-    "status": "NEW"
+    "status": "READ"
   },
   {
     "title": "Блокчейн изнутри: как устроен биткоин",
