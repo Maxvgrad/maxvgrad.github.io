@@ -4,5 +4,7 @@
   link: /articles
 - name: Projects
   link: /projects
+- name: Tech
+  link: /technologies
 - name: About
   link: /about
