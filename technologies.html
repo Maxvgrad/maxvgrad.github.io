@@ -9,7 +9,11 @@ permalink: /technologies
 <ul class="list">
     {% for technology in site.data.technologies %}
     <li class="item">
-        <a href="{{technology.url}}" class="link">{{technology.title}}</a>
+        <div>
+            <a href="{{technology.url}}" class="link" target="_blank">
+                <h4>{{technology.title}}</h4>
+            </a>
+        </div>
     </li>
     {% endfor %}
 </ul>
