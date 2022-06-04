@@ -1,8 +1,17 @@
 [
   {
+    "title": "Java™ Servlet Specification",
+    "url": "https://download.oracle.com/otn-pub/jcp/servlet-3.0-fr-oth-JSpec/servlet-3_0-final-spec.pdf",
+    "tags": ["backend", "web"],
+    "version": "3.0",
+    "date": "2012-10-01",
+    "date_added": "2022-05-21",
+    "status": "IN_PROGRESS"
+  },
+  {
     "title": "The OAuth 2.0 Authorization Framework",
     "url": "https://datatracker.ietf.org/doc/html/rfc6749",
-    "tags": ["backend", "authorization"],
+    "tags": ["backend", "security"],
     "version": "2.0",
     "date": "2012-10-01",
     "date_added": "2022-05-21",
@@ -13,7 +22,7 @@
     "url": "https://www.w3.org/TR/CSS2/",
     "version": "2.1",
     "date": "2022-05-21",
-    "tags": ["frontend"],
+    "tags": ["frontend", "web", "design"],
     "date_added": "2022-05-21",
     "status": "PENDING"
   }
