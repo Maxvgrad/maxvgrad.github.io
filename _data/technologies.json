@@ -1,5 +1,50 @@
 [
   {
+    "title": "TRANSMISSION CONTROL PROTOCOL",
+    "url": "https://www.rfc-editor.org/rfc/rfc793.txt",
+    "tags": ["web", "tcp"],
+    "version": "1.0",
+    "date": "1981-09",
+    "date_added": "2022-06-12",
+    "status": "IN_PROGRESS"
+  },
+  {
+    "title": "Known Issues and Best Practices for the Use of Long Polling and Streaming in Bidirectional HTTP",
+    "url": "https://datatracker.ietf.org/doc/html/rfc6202",
+    "tags": ["web", "http"],
+    "version": "1.0",
+    "date": "2011-04",
+    "date_added": "2022-06-12",
+    "status": "IN_PROGRESS"
+  },
+  {
+    "title": "Architectural Styles and the Design of Network-based Software Architectures",
+    "url": "https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm",
+    "tags": ["web", "api"],
+    "version": "1.0",
+    "date": "2000",
+    "date_added": "2022-06-12",
+    "status": "IN_PROGRESS"
+  },
+  {
+    "title": "HTTP/2",
+    "url": "https://datatracker.ietf.org/doc/html/rfc9113",
+    "tags": ["web", "http"],
+    "version": "2.0",
+    "date": "2022-06",
+    "date_added": "2022-06-12",
+    "status": "IN_PROGRESS"
+  },
+  {
+    "title": "Автоматное программирование",
+    "url": "http://is.ifmo.ru/books/_book.pdf",
+    "tags": ["state", "machine"],
+    "version": "1.0",
+    "date": "2008",
+    "date_added": "2022-06-12",
+    "status": "IN_PROGRESS"
+  },
+  {
     "title": "Java™ Servlet Specification",
     "url": "https://download.oracle.com/otn-pub/jcp/servlet-3.0-fr-oth-JSpec/servlet-3_0-final-spec.pdf",
     "tags": ["backend", "web"],
