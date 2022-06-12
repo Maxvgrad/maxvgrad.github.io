@@ -1,5 +1,14 @@
 [
   {
+    "title": "HTML",
+    "url": "https://html.spec.whatwg.org/multipage/introduction.html#abstract",
+    "tags": ["web", "html"],
+    "version": "5.0",
+    "date": "2022-06",
+    "date_added": "2022-06-12",
+    "status": "IN_PROGRESS"
+  },
+  {
     "title": "TRANSMISSION CONTROL PROTOCOL",
     "url": "https://www.rfc-editor.org/rfc/rfc793.txt",
     "tags": ["web", "tcp"],
