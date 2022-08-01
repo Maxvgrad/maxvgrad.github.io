@@ -1,27 +1,48 @@
 [
   {
+    "title": "Эффективность не работает",
+    "author": "Илья Якямсев",
+    "url": "https://www.youtube.com/watch?v=K6oZuB8_dU8&t=1s",
+    "format": "video",
+    "tags": ["personal", "life", "rest", "hiking"],
+    "date": "2022-07-31",
+    "status": "DONE"
+  },
+  {
+    "title": "Мозги надо переключать почему и как",
+    "author": "Андрей Себрант",
+    "url": "https://www.youtube.com/watch?v=aVdF_em3usw&t=258s",
+    "tags": ["personal", "life", "rest", "hiking"],
+    "date": "2022-07-31",
+    "status": "DONE"
+  },
+  {
     "title": "Разъёб, безделье, чилл — три шага, отделяющие вас от 100% продуктивности",
+    "author": null,
     "url": "https://vas3k.club/post/14129/",
     "tags": ["personal", "life", "rest"],
     "date": "2022-07-29",
-    "status": "READ"
+    "status": "DONE"
   },
   {
     "title": "Блокчейн изнутри: как устроен биткоин",
+    "author": null,
     "url": "https://vas3k.ru/blog/blockchain/",
     "tags": ["blockchain", "bitcoin"],
     "date": "2022-04-23",
-    "status": "READ"
+    "status": "DONE"
   },
   {
     "title": "Как быть одному и не облажаться",
+    "author": null,
     "url": "https://w-o-s.ru/article/4309",
     "tags": ["personal", "life", "relationship", "single"],
     "date": "2022-04-25",
-    "status": "READ"
+    "status": "DONE"
   },
   {
     "title": "Как устроен Ethereum и смарт-контракты",
+    "author": null,
     "url": "https://vas3k.ru/blog/ethereum/",
     "tags": ["blockchain", "ethereum", "smart-contract"],
     "date": "2022-04-25",
@@ -29,23 +50,26 @@
   },
   {
     "title": "The internet, explained",
+    "author": null,
     "url": "https://www.vox.com/2014/6/16/18076282/the-internet",
     "tags": ["tech", "internet"],
     "date": "2022-04-29",
-    "status": "READ"
+    "status": "DONE"
   },
   {
     "title": "How Does the Internet Work?",
+    "author": null,
     "url": "https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm",
     "tags": ["tech", "internet"],
     "date": "2022-04-29",
-    "status": "READ"
+    "status": "DONE"
   },
   {
     "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+    "author": null,
     "url": "https://bitcoin.org/bitcoin.pdf",
     "tags": ["blockchain", "bitcoin"],
     "date": "2022-04-23",
-    "status": "READING"
+    "status": "NEW"
   }
 ]
