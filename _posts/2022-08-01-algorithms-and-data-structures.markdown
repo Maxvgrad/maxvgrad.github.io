@@ -30,7 +30,39 @@ correctness of algorithm.
 
 # Asymptotic notation
 
-RAM model
+Random access machine (RAM) - theoretical model of a computer allows to analyse algorithm in machine independent way.
+
+RAM assumptions:
+* Each simple operation takes 1 step;  
+* Loops and subroutines are not simple operations;
+* Each memory access takes 1 step.
+
+We measure the run time of the algorithm by counting number of steps. 
+RAM is as useful as flat-earth model, because in sneaker shop we don't look for curved sole.
+
+## Complexity analysis
+
+Two ideas from the lecture:
+
+1. Ways of counting the complexity of an algorithm (best, worst and average case);
+2. Learning a language to talk about functions big O notation (asymptotic notations). 
+
+![](../assets/images/algorithms/skiena/alg_skiena-lecture-2-worst-case.webp)
+Each of those complexities defines a numerical function: time vs size.
+What would the reasoning be on buying a lottery on the bases of worth, best and average-case complexities?
+
+Reason on value of buying a lottery ticket.
+You learn nothing from looking at best-case.
+
+Exact analyses is hard. Best, average and worst are difficult to deal with 
+because precise function details are complicated. It is easier to talk about lower and upper bounds, 
+which brings us into asymptotic notations.
+
+When we ara talking about big Oh we are talking about properties of the function not meaning (???).
+![](../assets/images/algorithms/skiena/alg_skiena-lecture-2-upper-lower-bounds.webp)
+![](../assets/images/algorithms/skiena/alg_skiena-lecture-2-upper-lower-bound-graph.webp)
+![](../assets/images/algorithms/skiena/alg_skiena-lecture-2-upper-lower-bounds-formal-definition.webp)
+
 
 # Resources
 
