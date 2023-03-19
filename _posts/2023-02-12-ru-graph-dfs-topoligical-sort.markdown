@@ -7,27 +7,28 @@ categories: algorithms
 Саммари
 
 # Table of contents
-1. [Motivation](#Motivation)
+1. [Графы](#Графы)
+1. [Links](#Links)
 
 # Графы
 
 _Оринентированные_ графы направленные ребра и используются для задания двунаправленных связей.
 
-![](../assets/images/algorithms/mavrin/s3/l1/graph.webp)
+![](/assets/images/algorithms/mavrin/s3/l1/graph.webp)
 
 Ряд упрощений в оценки сложности алгоритмов на графах
 
-![](../assets/images/algorithms/mavrin/s3/l1/analysis-simplification.webp)
+![](/assets/images/algorithms/mavrin/s3/l1/analysis-simplification.webp)
 
 ## Способы хранения графа
 
 * Матрица связности
 
-![](../assets/images/algorithms/mavrin/s3/l1/adjacency-matrix.webp)
+![](/assets/images/algorithms/mavrin/s3/l1/adjacency-matrix.webp)
 
 * Лист связности
 
-![](../assets/images/algorithms/mavrin/s3/l1/adjacency-list.webp)
+![](/assets/images/algorithms/mavrin/s3/l1/adjacency-list.webp)
 
 ## Обход в глубину (DFS)
 
@@ -56,7 +57,7 @@ dfs(x): # пометить все вершины достижимые из Х
 Время входа и выхода работает для определения цикла, но это сложно.
 Чтобы определить предка, можно хранить метку-предка.
 
-![](../assets/images/algorithms/mavrin/s3/l1/search-graph-cycle.webp)
+![](/assets/images/algorithms/mavrin/s3/l1/search-graph-cycle.webp)
 
 ```python
 dfs(x): 
