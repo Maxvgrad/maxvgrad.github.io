@@ -1,0 +1,99 @@
+---
+title:  "Proofs"
+date:   2022-03-17 00:00:00 +0000
+categories: mathematics proofs
+---
+
+Proofs
+
+# Table of contents
+
+
+# Proof
+
+Mathematics its own notion of “proof”. In mathematics, a proof is a verification of
+a proposition by a chain of logical deductions from a base set of axioms.
+
+## Propositions
+
+A proposition is a statement that is either true or false.
+
+Predicate, which is a proposition whose truth depends on the value of one or more variables.
+```
+P(n) ::= “n is a perfect square”;
+```
+
+The symbols ∀ (“for all”) and ∃ (“there exists”) are called *quantifiers*.
+
+Implication, a proposition of the form P ⇒ Q.
+
+## Axioms
+
+Euclid's axiom-and-proof method is now called the axiomatic method.
+
+Propositions that are simply accepted as true are called axioms.
+Important true propositions are called theorems.
+Lemma is preliminary proposition useful for proving a later propositions.
+Corollary is a proposition that follows just in few logical steps from a theorem.
+
+There's not clear what you can take as an axiom, so a good general guidance to be up front about what you're assuming.
+
+### Logical Deductions
+
+Logical deductions, or inference rules, are used to prove new propositions using
+previously proved ones.
+Modus ponens (MP) can be summarized as "P implies Q. P is true. Therefore, Q must also be true.".
+The key requirement for inference rule that it should sound.
+
+Modus ponens should be written as ratio, when statement above the line is called antecedents is proved to be true then
+the statement below the line conclusion or consequent to be also true.
+
+### Patterns of proofs
+
+In principle, a proof can be any sequence of logical deductions from axioms and
+previously proved statements that concludes with the proposition in question.
+
+## Proving an Implication
+
+“If P, then Q” are called implications. There're a couple of standard methods for proving an implication. 
+
+Couple of points:
+* You’ll often need to do some scratchwork while you’re trying to figure out the logical steps of a proof.
+* Proofs typically begin with the word “Proof” and end with some sort of delimiter like ⇤ or “QED.” T
+
+### Method #1
+In order to prove that P IMPLIES Q:
+1. Write, “Assume P.”
+2. Show that Q logically follows.
+
+### Method #2 - Prove the Contrapositive
+
+An implication (“P IMPLIES Q”) is logically equivalent to its contrapositive
+NOT(Q) IMPLIES NOT(P):
+
+1. Write, “We prove the contrapositive:” and then state the contrapositive.
+2. Proceed as in Method #1.
+
+## Proving an “If and Only If”
+
+### 1.6.1 Method #1: Prove Each Statement Implies the Other
+
+The statement “P IFF Q” is equivalent to the two statements “P IMPLIES Q” and
+“Q IMPLIES P.” So you can prove an “iff” by proving two implications:
+1. Write, “We prove P implies Q and vice-versa.”
+2. Write, “First, we show P implies Q.” Do this by one of the methods in
+   Section 1.5.
+3. Write, “Now, we show Q implies P.” Again, do this by one of the methods
+   in Section 1.5.
+
+### 1.6.2 Method #2: Construct a Chain of Iffs
+
+In order to prove that P is true iff Q is true:
+1. Write, “We construct a chain of if-and-only-if implications.”
+2. Prove P is equivalent to a second statement which is equivalent to a third
+   statement and so forth until you reach Q.
+
+# Links
+* [Zermelo–Fraenkel set theory](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory)
+* [Modus ponens](https://en.wikipedia.org/wiki/Modus_ponens)
+
