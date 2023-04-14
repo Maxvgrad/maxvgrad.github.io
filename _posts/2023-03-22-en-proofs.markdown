@@ -93,6 +93,10 @@ In order to prove that P is true iff Q is true:
 2. Prove P is equivalent to a second statement which is equivalent to a third
    statement and so forth until you reach Q.
 
+## Proof by Cases
+
+
+
 # Links
 * [Zermelo–Fraenkel set theory](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory)
 * [Modus ponens](https://en.wikipedia.org/wiki/Modus_ponens)
